@@ -26,7 +26,7 @@
 
 
             prom.then((data) => {
-                alert("Welcome, " +data+"." + " you can vote.");
+                alert("Welcome, " +data+"." + " You can vote.");
             })
             prom.catch((data)=>{
                 alert("Oh sorry " +data+"." + " You aren't old enough.")
