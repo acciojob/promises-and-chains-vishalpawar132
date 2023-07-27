@@ -15,7 +15,11 @@
                     }, 4000)
                 }else{
                     setTimeout(()=>{
-                        reject(name);
+                        try{
+							reject(name);
+						}catch(e){
+							
+						}
                     }, 4000)
                 }
             })
